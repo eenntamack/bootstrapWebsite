@@ -1,0 +1,129 @@
+.navStack{
+    width:50px;
+    height:5px;
+    background-color: black;
+    margin:5px;
+    margin-right:0px;
+}
+.navStackContainter{
+    height:auto;
+    display:flex;
+    width:auto;
+    align-content: space-between;
+    margin-right:0px;
+
+}
+.bColor{
+    background-color: rgb(161, 161, 222);
+}
+.mWidth{
+    width:100%;
+}
+.carPos{
+    margin-top:-50px;
+    transform:scale(0.15,0.15);
+}
+
+.cardSize{
+    background-color: blanchedalmond;
+    margin-top:-80px;
+}
+
+.cardSize p{
+    height:30px;
+    background-color: rgb(155, 137, 111);
+    padding:5px;
+    border-radius:5px;
+
+}
+.section1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:30px;
+}
+.log ul{
+    display:flex;
+    flex-direction:column;
+    list-style: none;
+    height: 38rem;
+}
+
+.log ul li{
+    width: 30rem;
+    height:auto;
+    background-color: rgb(155, 137, 111);
+    border-style: hidden;
+    border-radius: 15px;
+    padding:3px;
+    transform: translateY(0px);
+    transition: transform ease-in-out 0.25s;    
+}
+.log ul li:hover{
+    transform: translateY(10px);
+}
+.log ul li p , h3{
+    margin-left:5px;
+    padding-left: 10px;
+    
+
+}
+
+.vr{
+    width:5px;
+    height:630px;
+}
+
+.hover{
+    transform: translateY(0px);
+    transition: transform ease-in-out 0.25s;   
+}
+.hover:hover{
+    transform: translateY(20px);
+}
+.cardScale{
+    transform:scale(0.75);
+
+    
+}
+
+.userGroup{
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+button{
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:solid;
+    border-color:  rgb(113, 99, 80); 
+    transition: border-width ease-in-out 0.25s;
+}
+button:hover{
+    border-width: 8px;
+}
+
+td,th{
+    background-color: beige;
+    padding:3px;
+    width:50px;
+    height: 20px;
+
+}
+
+.reports ul{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    background-color:  rgb(113, 99, 80); 
+    border-radius:10px;
+    transform: scale(1.1);
+    margin-top:20px;
+}
+
+.reports{
+    width:250px;
+    
+}
